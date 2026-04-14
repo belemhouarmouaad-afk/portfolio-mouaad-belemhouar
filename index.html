@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2d66ea" />
+    <title>Mouaad Belemhouar | Ing&eacute;nieur Industriel</title>
+    <meta
+      name="description"
+      content="Portfolio bilingue FR/EN de Mouaad Belemhouar, futur ing&eacute;nieur industriel orient&eacute; production, am&eacute;lioration continue et maintenance."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="top-gradient"></div>
+
+    <main class="shell">
+      <section class="hero-card">
+        <div class="hero-actions">
+          <div class="lang-switch">
+            <button class="lang-button" type="button" data-lang-trigger="fr">FR</button>
+            <button class="lang-button" type="button" data-lang-trigger="en">EN</button>
+          </div>
+          <a class="pdf-button" href="assets/docs/CV_BELEMHOUAR_MOUAAD.pdf" target="_blank" rel="noreferrer" data-i18n="hero.download">
+            T&eacute;l&eacute;charger PDF
+          </a>
+        </div>
+
+        <div class="hero-main">
+          <div class="hero-identity">
+            <div class="photo-wrap">
+              <img src="assets/images/profile-photo.jpg" alt="Portrait de Mouaad Belemhouar" class="hero-photo" />
+              <span class="online-dot"></span>
+            </div>
+
+            <div class="hero-copy">
+              <h1 data-i18n="hero.name">MOUAAD BELEMHOUAR</h1>
+              <p class="hero-role" data-i18n="hero.role">Futur Ing&eacute;nieur d'Etat Sp&eacute;cialis&eacute; en G&eacute;nie Industriel</p>
+              <p class="hero-summary" data-i18n="hero.summary">
+                Futur ing&eacute;nieur d'Etat en g&eacute;nie industriel, avec une exp&eacute;rience en environnement industriel chez Renault Group - SOMACA, sp&eacute;cialis&eacute; en production et am&eacute;lioration continue. &Agrave; la recherche d'une premi&egrave;re opportunit&eacute; en tant qu'ing&eacute;nieur production ou am&eacute;lioration continue.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-contact">
+            <div class="contact-pair">
+              <span class="contact-label" data-i18n="hero.locationLabel">Localisation</span>
+              <strong>Casablanca, Maroc</strong>
+            </div>
+            <div class="contact-pair">
+              <span class="contact-label" data-i18n="hero.phoneLabel">T&eacute;l&eacute;phone</span>
+              <strong><a href="tel:+212631455686">+212 6 31 45 56 86</a></strong>
+            </div>
+            <div class="contact-pair">
+              <span class="contact-label">Email</span>
+              <strong><a href="mailto:belemhouar.mouaad@gmail.com">belemhouar.mouaad@gmail.com</a></strong>
+            </div>
+            <div class="contact-pair">
+              <span class="contact-label">LinkedIn</span>
+              <strong><a href="https://www.linkedin.com/in/mouaadbelemhouar/" target="_blank" rel="noreferrer">mouaadbelemhouar</a></strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <nav class="tabbar" aria-label="Sections du portfolio">
+        <a class="tab is-active" href="#experience" data-nav-target="experience">
+          <span class="tab-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a2 2 0 0 1 2 2v8a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V9a2 2 0 0 1 2-2h3Zm2-2v2h4V5h-4Zm10 7h-7v2h7v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3h7v-2H4V9h16v3Z"/></svg>
+          </span>
+          <span data-i18n="nav.experience">Exp&eacute;rience</span>
+        </a>
+        <a class="tab" href="#volunteer" data-nav-target="volunteer">
+          <span class="tab-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.7-4.35-9.33-8.06C.37 9.76 2.35 5 6.6 5c2.17 0 3.44 1.2 4.19 2.32C11.53 6.2 12.8 5 14.97 5c4.25 0 6.23 4.76 3.93 7.94C18.7 16.65 12 21 12 21Z"/></svg>
+          </span>
+          <span data-i18n="nav.volunteer">B&eacute;n&eacute;volat</span>
+        </a>
+        <a class="tab" href="#education" data-nav-target="education">
+          <span class="tab-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 4.5-9 4.5L3 7.5 12 3Zm7 7.17v4.58c0 .74-.4 1.42-1.05 1.78l-5 2.78a2 2 0 0 1-1.9 0l-5-2.78A2.03 2.03 0 0 1 5 14.75v-4.58l6.1 3.05a2 2 0 0 0 1.8 0L19 10.17Z"/></svg>
+          </span>
+          <span data-i18n="nav.education">Formation</span>
+        </a>
+        <a class="tab" href="#projects" data-nav-target="projects">
+          <span class="tab-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8L10 4Zm10 6H4v8h16v-8Z"/></svg>
+          </span>
+          <span data-i18n="nav.projects">Projets</span>
+        </a>
+        <a class="tab" href="#skills" data-nav-target="skills">
+          <span class="tab-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.6 5.27L20.4 8l-4.2 4.1.99 5.8L12 15.27 6.81 17.9l.99-5.8L3.6 8l5.8-.73L12 2Z"/></svg>
+          </span>
+          <span data-i18n="nav.skills">Comp&eacute;tences</span>
+        </a>
+        <a class="tab" href="#certifications" data-nav-target="certifications">
+          <span class="tab-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 1 5 5c0 1.57-.72 2.97-1.84 3.89l1.5 7.11L12 15.5 7.34 18l1.5-7.11A4.98 4.98 0 0 1 7 7a5 5 0 0 1 5-5Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+          </span>
+          <span data-i18n="nav.certifications">Certifications</span>
+        </a>
+        <a class="tab" href="#interests" data-nav-target="interests">
+          <span class="tab-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 11a4 4 0 1 0-3.87-5h-.26A4 4 0 1 0 8 11c-2.76 0-5 2.24-5 5v2h12v-2c0-2.76-2.24-5-5-5h6Zm-8 2a3 3 0 0 1 3 3H5a3 3 0 0 1 3-3Zm8 0a3 3 0 0 1 3 3v2h-2v-2a5 5 0 0 0-2-4h1Z"/></svg>
+          </span>
+          <span data-i18n="nav.interests">Centres d'int&eacute;r&ecirc;t</span>
+        </a>
+      </nav>
+
+      <section class="section-block accent-blue" id="experience" data-section>
+        <div class="section-title">
+          <span class="section-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a7 7 0 1 1 5.7-11.07A7 7 0 0 1 12 22Zm0-12a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/><path d="M12 2a7 7 0 0 1 6.93 6H17a5 5 0 1 0-10 0H5.07A7 7 0 0 1 12 2Z"/></svg>
+          </span>
+          <div>
+            <p class="section-kicker" data-i18n="experience.kicker">Exp&eacute;rience Professionnelle</p>
+            <h2 data-i18n="experience.title">Exp&eacute;rience Professionnelle</h2>
+          </div>
+        </div>
+
+        <div class="stack-grid">
+          <article class="detail-card">
+            <div class="card-top">
+              <div>
+                <h3 data-i18n="experience.one.role">Service Production &amp; Maintenance - Stage PFE</h3>
+                <p class="company-line" data-i18n="experience.one.company">Renault Group - SOMACA - Casablanca</p>
+              </div>
+              <span class="date-pill" data-i18n="experience.one.date">F&eacute;vrier - Ao&ucirc;t 2026</span>
+            </div>
+            <ul class="bullet-list">
+              <li data-i18n="experience.one.point1">Am&eacute;lioration de la disponibilit&eacute; des &eacute;quipements et optimisation du TRS.</li>
+              <li data-i18n="experience.one.point2">Optimisation de la fiabilit&eacute; des &icirc;lots robotis&eacute;s et r&eacute;duction des pannes de 23%.</li>
+              <li data-i18n="experience.one.point3">Analyse des d&eacute;faillances et mise en place d'actions correctives.</li>
+            </ul>
+            <div class="chip-row">
+              <span class="chip blue-chip">TRS</span>
+              <span class="chip blue-chip">Fiabilit&eacute;</span>
+              <span class="chip blue-chip">Maintenance</span>
+              <span class="chip blue-chip">Lean Manufacturing</span>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-top">
+              <div>
+                <h3 data-i18n="experience.two.role">Service Manufacturing &amp; D&eacute;veloppement Process - Stage</h3>
+                <p class="company-line" data-i18n="experience.two.company">TE Connectivity - Tanger</p>
+              </div>
+              <span class="date-pill" data-i18n="experience.two.date">Juillet - Ao&ucirc;t 2025</span>
+            </div>
+            <ul class="bullet-list">
+              <li data-i18n="experience.two.point1">D&eacute;ploiement de la d&eacute;marche Lean sur le projet VAS-TB.</li>
+              <li data-i18n="experience.two.point2">Analyse des gaspillages et optimisation des processus avec un gain d'efficacit&eacute; de 9%.</li>
+              <li data-i18n="experience.two.point3">Contribution &agrave; l'am&eacute;lioration continue et &agrave; la r&eacute;solution de probl&eacute;matiques industrielles.</li>
+            </ul>
+            <div class="chip-row">
+              <span class="chip blue-chip">Am&eacute;lioration continue</span>
+              <span class="chip blue-chip">Lean Manufacturing</span>
+              <span class="chip blue-chip">Analyse de processus</span>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-top">
+              <div>
+                <h3 data-i18n="experience.three.role">Service Production et Maintenance - Stage</h3>
+                <p class="company-line" data-i18n="experience.three.company">IFAMEL International - Casablanca</p>
+              </div>
+              <span class="date-pill" data-i18n="experience.three.date">Juillet - Ao&ucirc;t 2024</span>
+            </div>
+            <ul class="bullet-list">
+              <li data-i18n="experience.three.point1">Production et contr&ocirc;le de compteurs &eacute;lectriques.</li>
+              <li data-i18n="experience.three.point2">Contribution &agrave; l'optimisation du processus d'injection plastique.</li>
+              <li data-i18n="experience.three.point3">C&acirc;blage, assemblage d'armoires &eacute;lectriques et am&eacute;lioration des op&eacute;rations de production.</li>
+            </ul>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-top">
+              <div>
+                <h3 data-i18n="experience.four.role">Service Maintenance - Stage</h3>
+                <p class="company-line" data-i18n="experience.four.company">ONEE - Mohammedia</p>
+              </div>
+              <span class="date-pill" data-i18n="experience.four.date">F&eacute;vrier - Mars 2023</span>
+            </div>
+            <ul class="bullet-list">
+              <li data-i18n="experience.four.point1">Maintenance pr&eacute;ventive et corrective des &eacute;quipements &eacute;lectriques.</li>
+              <li data-i18n="experience.four.point2">Suivi des interventions et analyse des donn&eacute;es de maintenance.</li>
+              <li data-i18n="experience.four.point3">Contribution &agrave; des actions d'am&eacute;lioration et &agrave; la mise en service d'un pont roulant.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block accent-green" id="volunteer" data-section>
+        <div class="section-title">
+          <span class="section-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 3.4-2.42 6.24-5.63 6.88l-.37 1.62h-2l-.37-1.62A7 7 0 0 1 5 9a7 7 0 0 1 7-7Zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-7 16c0-2.76 3.13-5 7-5s7 2.24 7 5H5Z"/></svg>
+          </span>
+          <div>
+            <p class="section-kicker" data-i18n="volunteer.kicker">Exp&eacute;rience B&eacute;n&eacute;vole</p>
+            <h2 data-i18n="volunteer.title">Exp&eacute;rience B&eacute;n&eacute;vole</h2>
+          </div>
+        </div>
+
+        <article class="detail-card">
+          <div class="card-top">
+            <div>
+              <h3 data-i18n="volunteer.one.role">Ambassadeur Career Center</h3>
+              <p class="company-line" data-i18n="volunteer.one.company">EMSI - &Eacute;cole Marocaine des Sciences de l'Ing&eacute;nieur</p>
+            </div>
+            <span class="date-pill" data-i18n="volunteer.one.date">Septembre 2024 - Pr&eacute;sent</span>
+          </div>
+          <ul class="bullet-list">
+            <li data-i18n="volunteer.one.point1">Accompagnement et orientation des &eacute;tudiants dans leur parcours professionnel.</li>
+            <li data-i18n="volunteer.one.point2">Organisation d'&eacute;v&eacute;nements de networking et de rencontres avec les entreprises.</li>
+            <li data-i18n="volunteer.one.point3">Promotion des opportunit&eacute;s de stages et d'emplois aupr&egrave;s des &eacute;tudiants.</li>
+            <li data-i18n="volunteer.one.point4">Facilitation des relations entre les &eacute;tudiants et le monde professionnel.</li>
+          </ul>
+          <div class="chip-row">
+            <span class="chip green-chip">Communication</span>
+            <span class="chip green-chip">Orientation professionnelle</span>
+            <span class="chip green-chip">Networking</span>
+            <span class="chip green-chip">Accompagnement</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-block accent-purple" id="education" data-section>
+        <div class="section-title">
+          <span class="section-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Zm7 7.2V16a2 2 0 0 1-1.05 1.76l-5 2.78a2 2 0 0 1-1.9 0l-5-2.78A2 2 0 0 1 5 16v-5.8l7 3.89 7-3.89Z"/></svg>
+          </span>
+          <div>
+            <p class="section-kicker" data-i18n="education.kicker">Formation</p>
+            <h2 data-i18n="education.title">Formation</h2>
+          </div>
+        </div>
+
+        <div class="stack-grid">
+          <article class="detail-card">
+            <div class="card-top">
+              <div>
+                <h3 data-i18n="education.one.title">Dipl&ocirc;me d'Ing&eacute;nieur d'Etat en G&eacute;nie Industriel</h3>
+                <p class="company-line accent-line" data-i18n="education.one.school">EMSI - &Eacute;cole Marocaine des Sciences de l'Ing&eacute;nieur - Casablanca</p>
+              </div>
+              <span class="date-pill">2023 - 2026</span>
+            </div>
+            <p class="card-copy" data-i18n="education.one.text">Formation en g&eacute;nie industriel avec sp&eacute;cialisation en optimisation des processus, gestion de la qualit&eacute; et syst&egrave;mes de production.</p>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-top">
+              <div>
+                <h3 data-i18n="education.two.title">Dipl&ocirc;me de Technicien Sp&eacute;cialis&eacute; en Electrom&eacute;canique des Syst&egrave;mes Automatis&eacute;s</h3>
+                <p class="company-line accent-line" data-i18n="education.two.school">ISIC - Institut Sp&eacute;cialis&eacute; Industriel Casablanca</p>
+              </div>
+              <span class="date-pill">2021 - 2023</span>
+            </div>
+            <p class="card-copy" data-i18n="education.two.text">Formation technique en &eacute;lectrom&eacute;canique avec focus sur l'automatisation industrielle.</p>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-top">
+              <div>
+                <h3 data-i18n="education.three.title">Baccalaur&eacute;at en Sciences Physiques - Option Bilingue</h3>
+                <p class="company-line accent-line" data-i18n="education.three.school">Lyc&eacute;e L'Ambition - Casablanca</p>
+              </div>
+              <span class="date-pill">2020</span>
+            </div>
+            <p class="card-copy" data-i18n="education.three.text">Baccalaur&eacute;at scientifique avec option bilingue fran&ccedil;aise.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block accent-orange" id="projects" data-section>
+        <div class="section-title">
+          <span class="section-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8L10 4Zm10 6H4v8h16v-8Z"/></svg>
+          </span>
+          <div>
+            <p class="section-kicker" data-i18n="projects.kicker">Projets Acad&eacute;miques</p>
+            <h2 data-i18n="projects.title">Projets Acad&eacute;miques</h2>
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <article class="detail-card">
+            <h3 data-i18n="projects.one.title">Conception et configuration d'un convoyeur de tri de bo&icirc;tes</h3>
+            <p class="card-copy" data-i18n="projects.one.text">D&eacute;veloppement d'un syst&egrave;me automatis&eacute; de tri utilisant TIA Portal et Factory IO pour optimiser les processus de tri industriel.</p>
+            <div class="chip-row">
+              <span class="chip orange-chip">TIA Portal</span>
+              <span class="chip orange-chip">Factory IO</span>
+              <span class="chip orange-chip">Automatisation</span>
+            </div>
+          </article>
+          <article class="detail-card">
+            <h3 data-i18n="projects.two.title">Tableau de bord de pilotage du TRS</h3>
+            <p class="card-copy" data-i18n="projects.two.text">R&eacute;alisation d'un tableau de bord de pilotage en temps r&eacute;el du TRS pour le suivi et l'optimisation de la performance des &eacute;quipements.</p>
+            <div class="chip-row">
+              <span class="chip orange-chip">Power BI</span>
+              <span class="chip orange-chip">KPI</span>
+              <span class="chip orange-chip">Performance</span>
+            </div>
+          </article>
+          <article class="detail-card">
+            <h3 data-i18n="projects.three.title">Conception et usinage d'une pi&egrave;ce m&eacute;canique</h3>
+            <p class="card-copy" data-i18n="projects.three.text">R&eacute;alisation compl&egrave;te d'une pi&egrave;ce m&eacute;canique, de la conception &agrave; l'usinage sur machines-outils conventionnelles et CNC.</p>
+            <div class="chip-row">
+              <span class="chip orange-chip">Usinage CNC</span>
+              <span class="chip orange-chip">Machines-outils</span>
+              <span class="chip orange-chip">M&eacute;trologie</span>
+            </div>
+          </article>
+          <article class="detail-card">
+            <h3 data-i18n="projects.four.title">Proth&egrave;se de main myo&eacute;lectrique</h3>
+            <p class="card-copy" data-i18n="projects.four.text">Conception, mod&eacute;lisation et pilotage d'une proth&egrave;se myo&eacute;lectrique via MATLAB Simulink, avec logique de commande et simulation.</p>
+            <div class="chip-row">
+              <span class="chip orange-chip">MATLAB</span>
+              <span class="chip orange-chip">Simulink</span>
+              <span class="chip orange-chip">Commande</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block accent-indigo" id="skills" data-section>
+        <div class="section-title">
+          <span class="section-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.6 5.27L20.4 8l-4.2 4.1.99 5.8L12 15.27 6.81 17.9l.99-5.8L3.6 8l5.8-.73L12 2Z"/></svg>
+          </span>
+          <div>
+            <p class="section-kicker" data-i18n="skills.kicker">Comp&eacute;tences</p>
+            <h2 data-i18n="skills.title">Comp&eacute;tences</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3 data-i18n="skills.card1Title">Production et Processus</h3>
+            <div class="progress-list">
+              <div class="progress-item"><span data-i18n="skills.p1">Gestion de la performance des proc&eacute;d&eacute;s</span><b>85%</b><div class="progress-bar"><i style="width:85%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.p2">Ma&icirc;trise des proc&eacute;d&eacute;s de fabrication</span><b>80%</b><div class="progress-bar"><i style="width:80%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.p3">Analyse des syst&egrave;mes industriels</span><b>82%</b><div class="progress-bar"><i style="width:82%"></i></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3 data-i18n="skills.card2Title">Maintenance et Fiabilit&eacute;</h3>
+            <div class="progress-list">
+              <div class="progress-item"><span data-i18n="skills.p4">Maintenance industrielle</span><b>90%</b><div class="progress-bar"><i style="width:90%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.p5">Fiabilit&eacute; des &eacute;quipements</span><b>85%</b><div class="progress-bar"><i style="width:85%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.p6">Automatisation des syst&egrave;mes</span><b>80%</b><div class="progress-bar"><i style="width:80%"></i></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3 data-i18n="skills.card3Title">Management et Outils</h3>
+            <div class="progress-list">
+              <div class="progress-item"><span data-i18n="skills.p7">Gestion de projet</span><b>85%</b><div class="progress-bar"><i style="width:85%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.p8">Power BI / Excel / SAP</span><b>82%</b><div class="progress-bar"><i style="width:82%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.p9">Am&eacute;lioration continue</span><b>88%</b><div class="progress-bar"><i style="width:88%"></i></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3 data-i18n="skills.card4Title">Langues</h3>
+            <div class="progress-list">
+              <div class="progress-item"><span data-i18n="skills.l1">Fran&ccedil;ais</span><b>90%</b><div class="progress-bar"><i style="width:90%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.l2">Anglais</span><b>78%</b><div class="progress-bar"><i style="width:78%"></i></div></div>
+              <div class="progress-item"><span data-i18n="skills.l3">Arabe</span><b>95%</b><div class="progress-bar"><i style="width:95%"></i></div></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block accent-gold" id="certifications" data-section>
+        <div class="section-title">
+          <span class="section-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 1 5 5c0 1.57-.72 2.97-1.84 3.89l1.5 7.11L12 15.5 7.34 18l1.5-7.11A4.98 4.98 0 0 1 7 7a5 5 0 0 1 5-5Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+          </span>
+          <div>
+            <p class="section-kicker" data-i18n="certifications.kicker">Certifications</p>
+            <h2 data-i18n="certifications.title">Certifications</h2>
+          </div>
+        </div>
+
+        <div class="card-grid three-cols">
+          <article class="detail-card">
+            <h3>Six Sigma Green Belt</h3>
+            <p class="company-line" data-i18n="certifications.one.org">Kennesaw State University</p>
+            <p class="mini-date" data-i18n="certifications.one.date">Septembre 2025</p>
+          </article>
+          <article class="detail-card">
+            <h3>SAP Technology Consultant</h3>
+            <p class="company-line">SAP</p>
+            <p class="mini-date" data-i18n="certifications.two.date">Ao&ucirc;t 2025</p>
+          </article>
+          <article class="detail-card">
+            <h3>Six Sigma Yellow Belt</h3>
+            <p class="company-line" data-i18n="certifications.three.org">Kennesaw State University</p>
+            <p class="mini-date" data-i18n="certifications.three.date">D&eacute;cembre 2024</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block accent-teal" id="interests" data-section>
+        <div class="section-title">
+          <span class="section-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 11a4 4 0 1 0-3.87-5h-.26A4 4 0 1 0 8 11c-2.76 0-5 2.24-5 5v2h12v-2c0-2.76-2.24-5-5-5h6Zm-8 2a3 3 0 0 1 3 3H5a3 3 0 0 1 3-3Zm8 0a3 3 0 0 1 3 3v2h-2v-2a5 5 0 0 0-2-4h1Z"/></svg>
+          </span>
+          <div>
+            <p class="section-kicker" data-i18n="interests.kicker">Centres d'int&eacute;r&ecirc;t</p>
+            <h2 data-i18n="interests.title">Centres d'int&eacute;r&ecirc;t</h2>
+          </div>
+        </div>
+
+        <div class="interest-panel">
+          <div class="interest-grid">
+            <div class="interest-item"><span class="interest-icon">&#9881;</span><span data-i18n="interests.i1">Innovation Industrielle</span></div>
+            <div class="interest-item"><span class="interest-icon">&#128187;</span><span data-i18n="interests.i2">Technologie</span></div>
+            <div class="interest-item"><span class="interest-icon">&#128202;</span><span data-i18n="interests.i3">Analyse de donn&eacute;es</span></div>
+            <div class="interest-item"><span class="interest-icon">&#8599;</span><span data-i18n="interests.i4">Optimisation</span></div>
+            <div class="interest-item"><span class="interest-icon">&#129302;</span><span data-i18n="interests.i5">Automatisation</span></div>
+            <div class="interest-item"><span class="interest-icon">&#10003;</span><span data-i18n="interests.i6">Qualit&eacute;</span></div>
+            <div class="interest-item"><span class="interest-icon">&#127922;</span><span data-i18n="interests.i7">Jeux de soci&eacute;t&eacute;</span></div>
+            <div class="interest-item"><span class="interest-icon">&#127946;</span><span data-i18n="interests.i8">Natation</span></div>
+            <div class="interest-item"><span class="interest-icon">&#9992;</span><span data-i18n="interests.i9">Voyages</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
+
+
+
